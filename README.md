@@ -1,4 +1,4 @@
-# VaporwareWave
+# WaveWare
 
 A Vapoware as a Service App.
 
@@ -11,15 +11,15 @@ get into, especially if you don't have technical skills.
 We've set out to solve that problem.
 
 
-VaporwareWave is the world's first Vaporware as a Service app.
+WaveWare is the world's first Vaporware as a Service app.
 What is vaporware? Vaporware is a term for theoretical software that has
 disappeared over time- thus becoming like vapor.  Vaporware is ever present in the
 modern software world with several new Startups opening for business daily to hopefully
 create the next big app.
 
-How does VaporwareWave work?
-VaporwareWave generates a product idea for you.  From there, it integrates with
-modern social platforms and crowdfunding websites.  VaporwareWave then automatically
+How does WaveWare work?
+WaveWare generates a product idea for you.  From there, it integrates with
+modern social platforms and crowdfunding websites.  WaveWare then automatically
 sends updates to all these platforms periodically- making it seem like you're making progress.
 These updates slow down over time, making allowing potential users and supporters to one day
 forget the application all together.
