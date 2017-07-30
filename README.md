@@ -21,8 +21,8 @@ How does WaveWare work?
 WaveWare generates a product idea for you.  From there, it integrates with
 modern social platforms and crowdfunding websites.  WaveWare then automatically
 sends updates to all these platforms periodically- making it seem like you're making progress.
-These updates slow down over time, making allowing potential users and supporters to one day
-forget the application all together.
+These updates slow down over time, allowing potential users and supporters to one day
+forget the application all together (features coming soon ™).
 
 Now YOU have the power to say you have a failed tech startup.
 
