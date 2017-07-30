@@ -1,29 +1,24 @@
 var prefixes = ['Script', 'Cable', 'Disrupt', 'Innovate', 'Doge'];
-
 var suffixes = ['.io', 'Bucket', 'Maker', 'Ly', 'Pan', 'Ware', 'Code'];
-
 var buzz1 = ["IOT", "Social Media", "Data Mining", "Cryptocurrency"];
-
 var buzz2 = ["deployment tools", "employees", "automated workflows"];
-
 var buzz3 =["frontend framework", "database", "web framework"];
 
-function generateName() {
-  var pref = prefixes[Math.floor(Math.random() * prefixes.length)];
-  var suff = suffixes[Math.floor(Math.random() *  suffixes.length)];
+function randomValue(arrayName) {
+  return arrayName[Math.floor(Math.random() * arrayName.length)];
+}
+
+function generateProject() {
+  // Grab random Values
+  var pref = randomValue(prefixes);
+  var suff = randomValue(suffixes);
+  var buzzA = randomValue(buzz1);
+  var buzzB = randomValue(buzz2);
+  var buzzC = randomValue(buzz3);
+
+  // Place Project Name in UI
   $('.projName').text(pref + suff);
-}
 
-
-function generateDescription() {
-  var buzzA = buzz1[Math.floor(Math.random() * buzz1.length)];
-  var buzzB = buzz2[Math.floor(Math.random() * buzz2.length)];
-  var buzzC = buzz3[Math.floor(Math.random() * buzz3.length)];
-  var appDesc = 'A ' + buzzA + ' app for managing your ' + buzzB + ' using the latest ' + buzzC + '.';
-  $('.projDesc').text(appDesc);
-}
-
-function generator() {
-  generateName();
-  generateDescription();
+  // Place project Description in UI
+  $('.projDesc').text('A ' + buzzA + ' app for managing your ' + buzzB + ' using the latest ' + buzzC + '.');
 }
